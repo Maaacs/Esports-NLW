@@ -1,3 +1,5 @@
+/*Esse arquivo está convertendo um arquivo escrito em ts para js*/
+
 //Para importação utilizando module é necessário que o nome do arquivo seja .mjs
 import express from 'express'
 

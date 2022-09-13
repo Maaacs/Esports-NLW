@@ -1,4 +1,4 @@
-
+import './styles.css'
 interface ButtonPropriets{//propriedades
   title: string;
 }

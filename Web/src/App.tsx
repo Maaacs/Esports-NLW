@@ -65,7 +65,10 @@ function App() {
           </a>
       </div>
 
-      <div className= "bg-[#2A2634] px-8 py-6 mt-8 self-stretch rounded-lg "> </div>
+      <div className="pt-1 bg-nlw-gradient self-stretch rounded-lg overflow-hidden mt-8 ">
+      <div className= "bg-[#2A2634] px-8 py-6"> </div>
+      </div>
+      
     </div>
   )
 }

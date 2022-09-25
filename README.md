@@ -10,7 +10,7 @@ Este é um projeto desenvolvido durante a edição NLW eSports realizada pela **
 A proposta do projeto é uma aplicação [Web](https://github.com/Maaacs/Esports-Web) e [Mobile](https://github.com/Maaacs/Esports-Mobile) que conecte jogadores que estão em busca de um duo para jogarem seus jogos prediletos. 
 
 ## Por quê?
-Decidi participar dessa edição do NLW por 2 motivos:
+Decidi participar dessa edição eSports do NLW por 2 motivos:
 
 
 1 - Por ser uma temática que, pessoalmente, eu adoro.

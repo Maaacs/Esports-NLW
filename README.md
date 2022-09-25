@@ -16,7 +16,7 @@ Decidi participar dessa edição do NLW por 2 motivos:
 1 - Por ser uma temática que, pessoalmente, eu adoro.
 
 
-2 - Por curiosidade em conhecer e vontade de aprender as tecnologias [React](https://pt-br.reactjs.org/), [Reactive Native](https://reactnative.dev/), [NodeJs](https://nodejs.org/en/) e, além disso, aprimorar meus conhecimentos em JavaScript, TypeScript e HTML. 
+2 - Por curiosidade em conhecer e vontade de aprender as tecnologias [React](https://pt-br.reactjs.org/), [Reactive Native](https://reactnative.dev/), [NodeJs](https://nodejs.org/en/) e, além disso, aprimorar meus conhecimentos em JavaScript, TypeScript, HTML e CSS. 
 
 
 Ao longo do desenvolvimento do projeto, pude entender os conceitos dessas tecnologias tão populares e conhecer algumas de suas bibliotecas. Também conheci o [ViteJS](https://vitejs.dev/) e o [TailWind](https://tailwindcss.com/) que me auxiliaram bastante durante o desenvolvimento.

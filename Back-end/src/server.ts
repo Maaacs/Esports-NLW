@@ -1,14 +1,23 @@
 /*Esse arquivo está convertendo um arquivo escrito em ts para js*/
 
 //Para importação utilizando module é necessário que o nome do arquivo seja .mjs
-import express from 'express'
+import express, { request, response } from 'express'
 
 const app = express()
 
-/*www.minhaapi.com/ads
-qual função irá executar quando o usuário acessar a rota ads*/
-app.get('/ads', (request, response) => { //request recebe uma informação, responde devolve
-    /*console.log('Acessou Ads!')*/
+
+app.get('/games', (request, response) => {
+    return response.json(['a']);
+})
+
+
+app.post('/ads', (request, response) => {
+    return response.status(201).json(['b']);
+})
+
+
+app.get('/games/:id/ads', (request, response) => { //request recebe uma informação, responde devolve
+    
     return response.json([ //Aqui podemos retornar qualquer tipo primitivo para o java (ex: array,obj,string)
         {id: 1, nome: 'Anúncio 1'},
         {id: 2, nome: 'Anúncio 2'},
@@ -17,6 +26,12 @@ app.get('/ads', (request, response) => { //request recebe uma informação, resp
         {id: 5, nome: 'Anúncio 5'},
 
     ])
-} )
-//em desenvolvimento cada aplicação irá roda em uma porta 'localhost:3333' ex
+})
+
+
+app.get('/ads/:id/discord', (request, response) => {
+    return response.json([])
+})
+
+
 app.listen(3333)

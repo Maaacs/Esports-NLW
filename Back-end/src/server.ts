@@ -2,6 +2,7 @@
 
 //Para importação utilizando module é necessário que o nome do arquivo seja .mjs
 import express, { request, response } from 'express'
+import cors from 'cors'
 
 import {PrismaClient} from '@prisma/client' // Para acessar o banco
 import { convertHourStringToMinutes } from './utils/convert-hour-string-to-minutes'
@@ -12,6 +13,7 @@ import { convertMinutesToHourString } from './utils/convert-minutes-to-hour-stri
 const app = express()
 
 app.use(express.json())
+app.use(cors()) //para restringir para somente um front-end fazer requisições {'http:rocketseat.com.br'} dentro de cors()
 
 const prisma = new PrismaClient() // faz a conexão com o banco
 
